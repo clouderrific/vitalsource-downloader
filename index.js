@@ -10,7 +10,7 @@ const bookIndexURL = `https://jigsaw.vitalsource.com/api/v0/books/${bookID}/page
 const fsRelativePath = `./${bookID}/`;
 
 // Copy entire cookie once logged into vitalsource
-const globalCookieVal = ``
+const globalCookieVal = `https://bookshelf.vitalsource.com/#/books/9781635671865/cfi/18!/4/2@100:0.00`
 
 // Write images to disk
 const writeIntoFS = async (filepath, contents) => {
